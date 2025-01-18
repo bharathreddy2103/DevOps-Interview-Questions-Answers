@@ -1,7 +1,8 @@
 1. What is Git, and why is it important for DevOps?
+
 Git is a distributed version control system that allows developers to track changes in source code during software development. In DevOps, Git is critical for enabling CI/CD pipelines, collaboration, and version tracking.
 
-2. What is the difference between Git and GitHub?
+3. What is the difference between Git and GitHub?
 
 Git: A version control system for tracking code changes.
 
