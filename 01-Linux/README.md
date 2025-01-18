@@ -3,91 +3,91 @@ Linux is an open-source operating system widely used for server environments due
 
 2. How do you check the current working directory in Linux?
 
-Command: pwd
+  Command: pwd
 
-It prints the full path of the current directory.
+  It prints the full path of the current directory.
 
 3. What are the different types of file permissions in Linux?
 
-Read (r): Allows viewing the contents of a file.
+   Read (r): Allows viewing the contents of a file.
 
-Write (w): Allows modifying the file.
+   Write (w): Allows modifying the file.
 
-Execute (x): Allows running the file as a program.
+   xecute (x): Allows running the file as a program.
 
 4. What is the difference between cp and mv?
 
-cp: Copies files/directories.
+   cp: Copies files/directories.
 
-mv: Moves or renames files/directories.
+   mv: Moves or renames files/directories.
 
 5. What is the purpose of the grep command?
 
-Used to search for specific patterns in files.
+   Used to search for specific patterns in files.
 
-Example: grep "error" /var/log/syslog (Searches for "error" in the syslog file).
+   Example: grep "error" /var/log/syslog (Searches for "error" in the syslog file).
 
 6. How do you check the uptime of a Linux system?
 
-Command: uptime
+  Command: uptime
 
-It shows how long the system has been running, the number of users, and the load averages.
+  It shows how long the system has been running, the number of users, and the load averages.
 
 7. How do you manage systemd services in Linux?
 
-Start a service: systemctl start service_name
+   Start a service: systemctl start service_name
 
-Stop a service: systemctl stop service_name
+   Stop a service: systemctl stop service_name
 
-Enable a service at boot: systemctl enable service_name
+   Enable a service at boot: systemctl enable service_name
 
 8. What is the purpose of the top and htop commands?
 
-top: Displays real-time system resource usage (CPU, memory, processes).
+   top: Displays real-time system resource usage (CPU, memory, processes).
 
-htop: A more user-friendly version of top with color coding and additional features.
+   htop: A more user-friendly version of top with color coding and additional features.
 
 9. How do you troubleshoot high CPU usage in Linux?
 
-Use top or htop to identify resource-hungry processes.
+   Use top or htop to identify resource-hungry processes.
 
-Check logs for any abnormal activity: journalctl, /var/log/syslog.
+   Check logs for any abnormal activity: journalctl, /var/log/syslog.
 
-Optimize or kill the offending process using kill -9 PID.
+   Optimize or kill the offending process using kill -9 PID.
 
 10. Explain iptables and its use in Linux.
 
-iptables is a command-line tool to configure the Linux kernel firewall.
+   iptables is a command-line tool to configure the Linux kernel firewall.
 
-Example:
+   Example:
 
-Allow SSH traffic: iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  Allow SSH traffic: iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
-Drop all other traffic: iptables -P INPUT DROP
+  Drop all other traffic: iptables -P INPUT DROP
 
 11. What are hard links and soft links?
 
-Hard Link: Points directly to the inode of a file. Deleting the original file does not affect the hard link.
+    Hard Link: Points directly to the inode of a file. Deleting the original file does not affect the hard link.
 
-Soft Link (Symbolic): Points to the file path. If the original file is deleted, the soft link becomes invalid.
+    Soft Link (Symbolic): Points to the file path. If the original file is deleted, the soft link becomes invalid.
 
-Create a hard link: ln file1 file2
+    Create a hard link: ln file1 file2
 
-Create a soft link: ln -s file1 file2
+    Create a soft link: ln -s file1 file2
 
 12. What are some common cron job scheduling expressions?
 
-Cron syntax: * * * * * command_to_execute
+    Cron syntax: * * * * * command_to_execute
 
-Minute (0-59)
+   Minute (0-59)
 
-Hour (0-23)
+  Hour (0-23)
 
-Day of Month (1-31)
+  Day of Month (1-31)
 
-Month (1-12)
+  Month (1-12)
 
-Day of Week (0-6)
+  Day of Week (0-6)
 
 
 Example:
