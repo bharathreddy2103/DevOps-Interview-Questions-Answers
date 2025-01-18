@@ -1,15 +1,18 @@
 1. What is Git, and why is it important for DevOps?
 
-Git is a distributed version control system that allows developers to track changes in source code during software development. In DevOps, Git is critical for enabling CI/CD pipelines, collaboration, and version tracking.
+   Git is a distributed version control system that allows developers to track changes in source code during software 
+   development. In DevOps, Git is critical for enabling CI/CD pipelines, collaboration, and version tracking.
 
-3. What is the difference between Git and GitHub?
+2. What is the difference between Git and GitHub?
 
-Git: A version control system for tracking code changes.
+   Git: A version control system for tracking code changes.
 
-GitHub: A cloud-based hosting platform for Git repositories, enabling collaboration and integration with tools.
+  GitHub: A cloud-based hosting platform for Git repositories, enabling collaboration and integration with tools.
 
 3. What is the purpose of the .gitignore file?
-The .gitignore file specifies files and directories that Git should ignore. For example, sensitive files, build artifacts, or logs can be excluded.
+   
+   The .gitignore file specifies files and directories that Git should ignore. For example, sensitive files, build 
+   artifacts, or logs can be excluded.
 
 4. What is a branch in Git?
 A branch is a pointer to a snapshot of your changes. Branches allow you to work on features or fixes without affecting the main codebase.
