@@ -1,6 +1,6 @@
 # DevOps-Interview-Questions-Answers
 
-Welcome to the **DevOps Interview Questions and Answers** repository! This repository is a one-stop resource to help you prepare for DevOps interviews, enhance your knowledge, and stay updated with the latest trends and technologies in the DevOps ecosystem.  
+Welcome to the **DevOps Interview Questions and Answers** repository. This repository is a one-stop resource to help you prepare for DevOps interviews, enhance your knowledge, and stay updated with the latest trends and technologies in the DevOps ecosystem.  
 
 ## 📖 About This Repository  
 This repository is dedicated to providing a comprehensive collection of DevOps-related questions and answers. It covers a wide range of topics, including tools, methodologies, and real-world scenarios. Whether you are a beginner or an experienced professional, this repository will serve as a valuable resource for interview preparation and skill-building.  
