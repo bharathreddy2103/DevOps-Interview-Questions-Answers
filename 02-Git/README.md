@@ -7,19 +7,19 @@
 
    Git: A version control system for tracking code changes.
 
-  GitHub: A cloud-based hosting platform for Git repositories, enabling collaboration and integration with tools.
+   GitHub: A cloud-based hosting platform for Git repositories, enabling collaboration and integration with tools.
 
 3. What is the purpose of the .gitignore file?
-   
+
    The .gitignore file specifies files and directories that Git should ignore. For example, sensitive files, build 
    artifacts, or logs can be excluded.
 
 4. What is a branch in Git?
-A branch is a pointer to a snapshot of your changes. Branches allow you to work on features or fixes without affecting the main codebase.
 
-Command to create a branch: git branch feature_branch.
-
-Switch to a branch: git checkout feature_branch.
+   A branch is a pointer to a snapshot of your changes. Branches allow you to work on features or fixes without affecting 
+   the main codebase.
+   Command to create a branch: git branch feature_branch.
+   Switch to a branch: git checkout feature_branch.
 
 5. What is the difference between git pull and git fetch?
 
